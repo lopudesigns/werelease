@@ -23,8 +23,8 @@ Please put some effort in requesting a new feature. If someone else is going to 
 
 In case you've encountered a bug, please make sure:
 
-* You are using the [latest version](https://github.com/webpro/release-it/releases).
-* You have read the [documentation](https://github.com/webpro/release-it/blob/master/README.md) first, and double-checked your configuration.
+* You are using the [latest version](https://github.com/weyoume/werelease/releases).
+* You have read the [documentation](https://github.com/weyoume/werelease/blob/master/README.md) first, and double-checked your configuration.
 * You have acknowledged from `--verbose` and `--debug` the errors are likely a bug in this project (and not coming from your environment or a dependency of this project).
 * In your issue description, please include:
 	* What you expected to see, and what happened instead.
@@ -47,7 +47,7 @@ Unsure about whether you should open a pull request? Feel free to discuss it fir
 Set up the project on your machine:
 
 ```bash
-git clone https://github.com/webpro/release-it
+git clone https://github.com/weyoume/werelease
 cd release-it
 npm install
 ```

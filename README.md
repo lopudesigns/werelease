@@ -17,9 +17,9 @@ CLI release tool for Git repos and npm packages.
 * Support [Conventional Changelog workflows](#custom-or-conventional-changelog)
 * [Push build artifacts to a distribution repository](#-distribution-repository)
 
-[![Build Status](https://travis-ci.org/webpro/release-it.svg?branch=master)](https://travis-ci.org/webpro/release-it)
+[![Build Status](https://travis-ci.org/weyoume/werelease.svg?branch=master)](https://travis-ci.org/weyoume/werelease)
 [![npm version](https://badge.fury.io/js/release-it.svg)](https://badge.fury.io/js/release-it)
-[![Greenkeeper badge](https://badges.greenkeeper.io/webpro/release-it.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/weyoume/werelease.svg)](https://greenkeeper.io/)
 
 <details>
  <summary><strong>Table of Contents</strong> (click to expand)</summary>
@@ -174,7 +174,7 @@ All commands can use configuration variables (like template strings):
 "afterReleaseCommand": "echo Successfully released ${version} to ${dist.repo}."
 ```
 
-The variables can be found in the [default configuration](https://github.com/webpro/release-it/blob/master/conf/release-it.json). Additionally, `version`, `latestVersion` and `changelog` are exposed in custom commands. Also the `repo` object (with properties `remote`, `protocol`, `host`, `owner`, `repository` and `project`) is available.
+The variables can be found in the [default configuration](https://github.com/weyoume/werelease/blob/master/conf/release-it.json). Additionally, `version`, `latestVersion` and `changelog` are exposed in custom commands. Also the `repo` object (with properties `remote`, `protocol`, `host`, `owner`, `repository` and `project`) is available.
 
 ## 📡 SSH keys & git remotes
 
@@ -182,7 +182,7 @@ The tool assumes SSH keys and Git remotes to be configured correctly. If `git pu
 
 ## ✏️ GitHub Release
 
-See this project's [releases page](https://github.com/webpro/release-it/releases) for an example. To create [GitHub releases](https://help.github.com/articles/creating-releases/):
+See this project's [releases page](https://github.com/weyoume/werelease/releases) for an example. To create [GitHub releases](https://help.github.com/articles/creating-releases/):
 
 * The `github.release` option must be `true`.
 * Obtain a [GitHub access token](https://github.com/settings/tokens) (release-it only needs "repo" access; no "admin" or other scopes).
