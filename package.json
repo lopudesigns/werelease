@@ -1,6 +1,6 @@
 {
   "name": "werelease",
-  "version": "7.6.1",
+  "version": "7.6.11",
   "description": "CLI release tool for Git repos and npm packages.",
   "keywords": [
     "build",
