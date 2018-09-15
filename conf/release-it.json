@@ -11,7 +11,9 @@
   "beforeChangelogCommand": false,
   "changelogCommand": "git log --pretty=format:\"* %s (%h)\" [REV_RANGE]",
   "requireCleanWorkingDir": true,
-  "requireUpstream": true,
+	"requireUpstream": false,
+	"dontUseUrl":	true,
+	"dontSetUpstream":	true,
   "src": {
     "commit": true,
     "commitMessage": "Release %s",
